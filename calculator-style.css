@@ -1,0 +1,133 @@
+body {
+  background-color: #dd1212;
+}
+
+table {
+  margin: auto;
+  background-color: #060606;
+  width: 295px;
+  height: 325px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#calculator {
+  position: absolute;
+  max-width: 60%;
+  left: 58%;
+  top: 10%;
+}
+
+input {
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+
+input:hover {
+  border: 0 solid #000;
+  color: white;
+  background-color: #dd1212;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 25px;
+  box-shadow: 0 4px white;
+}
+
+input:active {
+  top: 4px;
+  border: 0 solid #000;
+  color: white;
+  background-color: #dd1212;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: none;
+}
+
+#answer {
+  width: 270px;
+  font-size: 26px;
+  text-align: right;
+  background-color: white;
+  float: left;
+}
+
+#answer:hover {
+  width: 270px;
+  font-size: 26px;
+  text-align: right;
+  background-color: white;
+  color: #000;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+
+#answer:active {
+  top: 5px;
+  width: 270px;
+  font-size: 26px;
+  text-align: center;
+  background-color: #f1faeb;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.operator {
+  background-color: #dd1212;
+  position: relative;
+  color: black;
+}
+
+.operator:hover {
+  background-color: white;
+  box-shadow: 0 4px #dd1212;
+  color: black;
+}
+
+.operator:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+#clear {
+  float: left;
+  position: relative;
+  display: block;
+  background-color: red;
+  margin-bottom: 15px;
+}
+
+#clear:hover {
+  float: left;
+  display: block;
+  color: black;
+  background-color: white;
+  margin-bottom: 15px;
+  box-shadow: 0 4px red;
+}
+
+#clear:active {
+  float: left;
+  top: 4px;
+  display: block;
+  background-color: red;
+  margin-bottom: 15px;
+  box-shadow: none;
+}
